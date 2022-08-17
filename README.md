@@ -16,7 +16,7 @@ Bag of words is the Process of converting the given input sentence into a word v
 
 The functions are implemented using nltk, which is an open source python module.
 
-# Neural network model of chatbot.
+# Neural network model of chatbot
 Our model has 1 input layer, 2 hidden layers and 1 output layer. Input layer has 54 nodes as there are 54 words in our dictionary. Hidden layer as 8 nodes and output layer has 7 nodes. 7 nodes in our output layer correspond to 7 different tags in our input data. The values of nodes in hidden layer are calculated using innerproduct i.e. 
 Hidden Node Value = x1w1 + x2w2 + x3w3 + x4w4 .......xnwn
 After each hidden layer, we use ReLU as our activation function. Since the final output represents probability which is always positive, we ignore negative values using ReLU. Softmax is used after the output layer to find the probability that the given input sentence corresponds to the specific tag. 
@@ -24,5 +24,5 @@ After each hidden layer, we use ReLU as our activation function. Since the final
 # How the model actually Learns?
 When we train the model, we compare the output produced by our model with actual output using which we define a loss function. Using the technique of back propogation i.e. adjusting weights by finding gradient (slope) our model optimizes itself in every iteration. 
 
-# Implementation of chatbot.
+# Implementation of chatbot
 We first import the neural network parameters (weights) of our previously trained model. The input senctence from the user is tokenized, stemmed and converted into a bag of words before sending it the model. Our model then classifies the sentence into an appropriate tag and responds with a predefined response.
