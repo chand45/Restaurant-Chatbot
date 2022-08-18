@@ -1,5 +1,10 @@
 # Restaurant-Chatbot
 
+<p align="center">
+  <img src="https://github.com/chand45/Restaurant-Chatbot/blob/main/RestaurantChatbotImage.jpg?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 During the pandemic situation where human contact was considered risky, chatbots helped us in serving the customers efficiently. This was our inspiration in building a chatbot. The aim of our chatbot is to reduce the communication gap between restaurant management and customers, without the involvement of any physical contact.
 
 Coming to the data format of our chatbot: 
